@@ -20,7 +20,7 @@ from email import encoders
 # === Setup paths ===
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DOWNLOAD_DIR = os.path.join(BASE_DIR, "downloads")
-RESOURCE_FILE = os.path.join(BASE_DIR, "ModuleDetails.xlsx")
+RESOURCE_FILE = os.path.join(BASE_DIR, "exception/ModuleDetails.xlsx")
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
 # === Chrome Options ===
